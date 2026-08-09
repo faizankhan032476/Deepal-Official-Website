@@ -938,12 +938,12 @@ img{
     width: 60px;
     text-align: center;
 }
-.color-btn-1{background-color: #000000;}
-.color-btn-2{background-color: #70787d;}
-.color-btn-3{background-color: #ffffff;}
-.color-btn-4{background-color: #93c5ce;}
-.color-btn-5{background-color: #c3d277;}
-.color-btn-6{background-color: #d47566;}
+.color-btn-1{background-color: #000000; cursor:pointer;}
+.color-btn-2{background-color: #70787d; cursor:pointer;}
+.color-btn-3{background-color: #ffffff; cursor:pointer;}
+.color-btn-4{background-color: #93c5ce; cursor:pointer;}
+.color-btn-5{background-color: #c3d277; cursor:pointer;}
+.color-btn-6{background-color: #d47566; cursor:pointer;}
 
 #color1:checked ~ .car-color{
     background-image: url(./black\ car\ image.png);
@@ -984,6 +984,11 @@ img{
 .color-download{
     width: 100%;
     padding-left: 20px;
+}
+.color-download:hover{
+ transform:tranlateY(-4px);
+ background-color: #003124;
+ color:white
 }
 .color-download button{
     text-transform: uppercase;
